@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our media gallery featuring videos, audio, and images of goat farming, milk, and meat production.">
+    <title>Media Gallery - Goat Rearing Farm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        figure {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="#main">Skip to content</a>
+    <header>
+        <h1>Media Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="media.html" aria-current="page">Media</a></li>
+                <li><a href="extras.html">Extras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section>
+            <h2>Video: Goats relseased for grazing</h2>
+            <figure>
+                <video controls width="640" poster="assets/images/goat-farm.jpg">
+                    <source src="vedio1.mp4" type="video/mp4">
+                    <track src="vedio2 .mp4" kind="captions" srclang="en" label="English" default>
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+                <figcaption>Learn the basics of goat farming and how we raise healthy goats.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Audio: The Goat Enjoying at our farm</h2>
+            <audio controls>
+                <source src="audio1.mp4" type="audio/mpeg">
+                <source src="audio2.mp4" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Goat Milk and Meat Photos</h2>
+            <figure>
+                <img src="milk.jpeg" alt="Fresh Goat Milk">
+                <figcaption>Fresh goat milk ready for sale.</figcaption>
+            </figure>
+            <figure>
+                <img src="fresh goat meat1.jpeg" alt="Goat Meat Products">
+                <figcaption>Premium goat meat products available for purchase.</figcaption>
+            </figure>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Goat Rearing Farm. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>
