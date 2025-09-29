@@ -66,4 +66,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions or suggestions, feel free to reach out through the issues section of this repository or email us at [shariffmohamedabdi@gmail.com](mailto:email@example.co).
 
 
+## Screenshots
+
+### Homepage Desktop View
+![Home Page](./assets/images/homepage_screenshot.png)
+
+
 Thank you for visiting the **Shariff Goat Farming Project**!
