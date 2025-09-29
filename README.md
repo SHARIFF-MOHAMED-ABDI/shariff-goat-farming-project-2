@@ -71,5 +71,7 @@ For any questions or suggestions, feel free to reach out through the issues sect
 ### Homepage Desktop View
 ![Home Page](./assets/images/homepage_screenshot.png)
 
+### Homepage Mobile view
+![home page](./assets/images/Homepage_mobile_view.png)
 
 Thank you for visiting the **Shariff Goat Farming Project**!
